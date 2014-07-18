@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/gs/project/mugqic/projects/Ioannis_PRJBFX_699_PacBio/filtering/HEK293_KD2_TC200cells_2of2/data'
+let g:netrw_dirhist_2='/gs/project/mugqic/projects/Ioannis_PRJBFX_699_PacBio/filtering/HEK293_KD2_TC200cells_2of2'
+let g:netrw_dirhist_3='/gs/project/mugqic/projects/FINKEL_PRJBFX-652/strain1/deliverable'
+let g:netrw_dirhist_4='/gs/project/mugqic/projects/pgoerner/PacBio_54x_human_genome/FASTA'
