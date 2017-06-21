@@ -26,4 +26,9 @@ make install
 wget https://download1.rstudio.org/rstudio-1.0.143-amd64.deb
 sudo dpkg -i rstudio-1.0.143-amd64.deb
 
+# Do not forget to update your PATH
+export PATH=~/software/R/R-3.4.0/bin:$PATH
+export RSTUDIO_WHICH_R=~/software/R/R-3.4.0/bin/R
+
+
 # That's it type rstudio and all should be good!
