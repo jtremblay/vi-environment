@@ -30,5 +30,8 @@ sudo dpkg -i rstudio-1.0.143-amd64.deb
 export PATH=~/software/R/R-3.4.0/bin:$PATH
 export RSTUDIO_WHICH_R=~/software/R/R-3.4.0/bin/R
 
+## for rJava and ReporteRs installation you also need to do this:
+sudo apt-get install libxml2-dev
+sudo R CMD javareconf
 
 # That's it type rstudio and all should be good!
